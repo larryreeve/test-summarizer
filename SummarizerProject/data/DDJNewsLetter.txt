@@ -1,0 +1,25 @@
+http://www.ddj.com/documents/s=8833/ddj0508jv/ddj0508jv.html?temp=Qtaa7Ajcu1
+
+Java Newsletter August 2005
+Java is becoming more robust and reliable with each release, which helps to further expand the set of problems it can be used to solve. 
+By Eric J. Bruno
+
+I have many years of experience developing mission critical software. My first "real" programming job was at Reuters, where I worked on a foreign exchange trading system. The system was used by banks all over the world, and to give you an idea of what was at stake, the minimum amount of a single trade was $1 million US. That was the minimum; most traders traded above the minimum. With the thousands of trades per day that were conducted on the system, I'm sure you will agree that this truly qualifies as a mission critical application.
+
+You probably won't be surprised when I tell you that the client-side software was written in C, and the server-side software was written in Ada (en.wikipedia.org/wiki/Ada_programming_language). Well, you may be somewhat surprised that Ada was used, but what should really surprise you is that the C software that ran on the client-side was a Windows 3.1 application. We achieved real-time performance and reliability that was generally unheard of for a Windows 3.1 application by minimizing the Windows installation, replacing the Windows shell with our own custom shell, and using Windows for nothing more than its message queues and basic user-interface capabilities. I won't get into the fact that we eventually ported the application to Win32, and made it run on Windows 3.1 using Win32S (en.wikipedia.org/wiki/Win32s). For those of you who also used Win32S, and had to deal with "Thunking" (en.wikipedia.org/wiki/Thunking) please send me your war-stories!
+
+We didn't use Java because it wasn't a choice at the time (the very early '90s). When Java did emerge, I used it on projects with "soft" real-time requirements; something I used to call "real-enough time." This generally meant that it was used in projects that required the dynamic delivery of data, usually the request/response kind. However, if split-second response was needed, and money was at stake, C/C++ was always the choice.
+
+This changed quickly (and it continues) because of increases in hardware power coupled with improvements to the JVM. More recently, Java has been used for mission-critical projects -- but they're usually Web-based applications. When it has come down to real-time performance, or life-and-death consequences, Java has typically not been chosen. This is changing because Java now has a proven track-record of quality and reliability. Java is increasingly the choice for military applications (www.boeing.com/defense-space/military/unmanned/scaneagle.html), robotics (java.sun.com/developer/technicalArticles/Programming/robotics/), telecommunications (www.sun.com/solutions/documents/white-papers/te_JESTelcoBusinessValue_dd.pdf), and mobile solutions (www.symbol.com/products/mobile_computers/nsicom.html). I predict that eventually, because of the efforts of Sun and other vendors (www.informationweek.com/showArticle.jhtml?articleID=166404357), there will be no problems that cannot be solved with Java. I suppose the true test of this prediction is whether NASA chooses to use Java in the Space Shuttle (or some future) program. Then again, haven't they already? Check out these links:
+
+Mars Pathfinder (java.sun.com/features/1997/july/mars.html) 
+Mars Rover (www.sun.com/aboutsun/media/features/mars.html) 
+Control and Observation Framework (www.nas.nasa.gov/Resources/Software/Open-Source/code.html#overview) 
+Real-time Skywatch Application (spaceflight1.nasa.gov/realdata/sightings) 
+Satellite tracking (science.nasa.gov/realtime) 
+Nasa develops "bug detection" software (www.nasa.gov/centers/ames/multimedia/images/2005/javapathfinder.html) 
+For more information on true software reliability, read Ed Nisley's fine article entitled, "Reliability: The Hard and the Soft," at www.ddj.com/documents/s=9698/ddj0505p/0505p.html
+
+Happy coding, 
+-EJB 
+

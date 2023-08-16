@@ -1,0 +1,40 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummaryLib", "SummaryLib\SummaryLib.csproj", "{DCD94195-3382-4A49-9531-9725C4404FD4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummarizerUI", "SummarizerUI\SummarizerUI.csproj", "{84F651AB-1C4E-4E56-BCC4-964A0CA5965B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpEntropy", "..\SharpEntropyProject\SharpEntropy\SharpEntropy.csproj", "{BF0BF8B0-1894-4EDF-BF51-F370B063797E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DCD94195-3382-4A49-9531-9725C4404FD4}.Debug.ActiveCfg = Debug|.NET
+		{DCD94195-3382-4A49-9531-9725C4404FD4}.Debug.Build.0 = Debug|.NET
+		{DCD94195-3382-4A49-9531-9725C4404FD4}.Release.ActiveCfg = Release|.NET
+		{DCD94195-3382-4A49-9531-9725C4404FD4}.Release.Build.0 = Release|.NET
+		{84F651AB-1C4E-4E56-BCC4-964A0CA5965B}.Debug.ActiveCfg = Debug|.NET
+		{84F651AB-1C4E-4E56-BCC4-964A0CA5965B}.Debug.Build.0 = Debug|.NET
+		{84F651AB-1C4E-4E56-BCC4-964A0CA5965B}.Release.ActiveCfg = Release|.NET
+		{84F651AB-1C4E-4E56-BCC4-964A0CA5965B}.Release.Build.0 = Release|.NET
+		{BF0BF8B0-1894-4EDF-BF51-F370B063797E}.Debug.ActiveCfg = Debug|.NET
+		{BF0BF8B0-1894-4EDF-BF51-F370B063797E}.Debug.Build.0 = Debug|.NET
+		{BF0BF8B0-1894-4EDF-BF51-F370B063797E}.Release.ActiveCfg = Release|.NET
+		{BF0BF8B0-1894-4EDF-BF51-F370B063797E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		Summarizer.vsd = Summarizer.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
